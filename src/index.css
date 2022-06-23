@@ -27,13 +27,39 @@ input{
   margin:8px 0;
   border-radius: 8px;
 }
-button{
-  padding:4px 2px;
+.btn{
+  display: block;
+
   width: 100%;
-  margin:4px 0;
+  font-size: 1.2rem;
+  margin:8px 0;
+  padding: 10px 0;
+  background-color: #333;
+  color:#fff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
+.btn-outline {
+  background-color: #fff;
+  color: #333;
+}
+.center {
+  text-align: center;
+  margin: 24px 0;
+}
 
+p {
+  margin: 10px 0;
+}
+.img-container{
+  text-align: center;
+}
+
+.img-container img {
+  height:200px; 
+}
 
 
 
